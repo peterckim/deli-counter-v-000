@@ -8,7 +8,7 @@ def line(line)
   when 0
     string = " empty."
   else
-    string == ": "
+    string = ": "
     line.each_with_index do |name, index|
       if index < line.length - 1
         string << "#{index + 1}. #{name} "
